@@ -63,32 +63,3 @@ p {
     background-color: #26413C;
     border-radius: 2px;
 }
-
-.boxShadow {
-    background-color: #00ffff;
-    height: 20px;
-    width: 20px;
-    box-shadow:
-    0px 0px 0 0 #00ffff,
-    20px 0px 0 0 #00ffff,
-    40px 0px 0 0 #00ffff,
-    60px 0px 0 0 #00ffff,
-    80px 0px 0 0 #00ffff,
-    100px 0px 0 0 #00ffff,
-    120px 0px 0 0 #00ffff,
-    140px 0px 0 0 #00ffff,
-    160px 0px 0 0 #00ffff,
-    40px 40px 0 0 #00ffff,
-    40px 60px 0 0 #00ffff,
-    120px 60px 0 0 #00ffff,
-    140px 60px 0 0 #00ffff,
-    60px 80px 0 0 #00ffff,
-    80px 80px 0 0 #00ffff,
-    100px 80px 0 0 #00ffff,
-    120px 80px 0 0 #00ffff,
-    60px 120px 0 0 #00ffff,
-    60px 140px 0 0 #00ffff,
-    80px 140px 0 0 #00ffff,
-    100px 140px 0 0 #00ffff,
-    120px 140px 0 0 #00ffff
-    }
