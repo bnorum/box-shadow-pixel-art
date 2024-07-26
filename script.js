@@ -9,8 +9,32 @@ const updateBtn = document.querySelector('.updatearr')
 
 let draw = false
 
+function copyCSS() {
+  // Get the text field
+  var copyText = document.getElementById("cssoutput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+
+
+
+
+
+
 // 2D array to hold colors
 let colors = []
+
+
+
+
 
 function populate(size) {
   container.style.setProperty('--size', size)
@@ -82,5 +106,4 @@ function createBoxShadow(size) {
 }
 
 const style = document.createElement('style')
-style.innerHTML = cssClass
 document.head.appendChild(style)
